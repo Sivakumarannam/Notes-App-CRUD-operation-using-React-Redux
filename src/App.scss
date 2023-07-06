@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  width: 100%;
+  border-bottom: solid 1px rgb(24, 23, 23);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ body {
+   background: linear-gradient(to right, #0099ff, #cc00ff, #ff6666, #ffcc33, #00cc99);
+   background-size: 800% 800%;
+   animation: gradientBackground 20s ease infinite;
+ }
+
+ @keyframes gradientBackground {
+   0% {
+     background-position: 0% 50%;
+   }
+
+   50% {
+     background-position: 100% 50%;
+   }
+
+   100% {
+     background-position: 0% 50%;
+   }
+ }
+
+
+
+
